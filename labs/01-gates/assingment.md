@@ -7,6 +7,7 @@
    ![Logic function](images/equations.png)
 
 2. Listing of VHDL architecture from design file (`design.vhd`) for all three functions. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
+![image](https://user-images.githubusercontent.com/99393183/154074227-7d2a83ea-efa4-4294-9a63-b3a5f26d82b6.png)
 
 ```vhdl
 architecture dataflow of demorgan is
