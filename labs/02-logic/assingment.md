@@ -31,7 +31,7 @@
 
 ## 2-bit comparator 
 
-![image](https://user-images.githubusercontent.com/99393183/154687804-5a7f5f7c-9a89-4231-9e18-15a49d95c97a.png)
+![image](https://user-images.githubusercontent.com/99393183/154687912-5968c1e1-fa66-4b93-acc1-b78018f016dd.png)
 
 
 ## 4-bit comparator of my ID
