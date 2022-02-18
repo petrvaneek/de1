@@ -28,4 +28,20 @@
 ![image](https://user-images.githubusercontent.com/99393183/154686883-1bf9e1e8-fc5e-4cbe-958c-31ecdc4e5252.png)
 
 
+
+## 2-bit comparator 
+
+![image](https://user-images.githubusercontent.com/99393183/154687667-84c06107-3014-4a4e-a8af-23db110a731e.png)
+
+
+## 4-bit comparator of my ID
+
 ![image](https://user-images.githubusercontent.com/99393183/154687417-069ad487-5fd3-4a30-ada9-153478f56923.png)
+
+
+![image](https://user-images.githubusercontent.com/99393183/154687621-86382626-bb53-4fe9-bc93-6fcb15ecafd2.png)
+
+
+
+VHDL code:https://www.edaplayground.com/x/ihSR
+
