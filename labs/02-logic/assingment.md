@@ -19,8 +19,10 @@
 |1 1	|1 0	|1	|0	|0|
 |1 1	|1 1|	0|	1|	0|
 
-![image](https://user-images.githubusercontent.com/99393183/154684917-0e674967-e60c-46c8-a468-0562a658f50f.png)
+![image](https://user-images.githubusercontent.com/99393183/154686692-5d8b1d85-f5a6-4aa4-b155-e22b1617b52c.png)
 
 
-![image](https://user-images.githubusercontent.com/99393183/154684974-d29dc2a6-34a6-4aea-9d1f-ea99c1239d4e.png)
+![image](https://user-images.githubusercontent.com/99393183/154686721-1fdd5636-b26b-4f4f-8039-c845a3a7d2f6.png)
 
+
+![image](https://user-images.githubusercontent.com/99393183/154686571-b5c2889c-f531-4672-b681-163ea6a1623f.png)
