@@ -1,10 +1,26 @@
 # Lab 1: Petr Vaněk
 
-### De Morgan's laws
+### Combinational logic
 
-1. Equations of all three versions of logic function f(c,b,a):
+preparation task:
+B[1:0]	A[1:0]	B is greater than A	B equals A	B is less than A
+0 0	0 0	0	1	0
+0 0	0 1	0	0	1
+0 0	1 0	0	0	1
+0 0	1 1	0	0	1
+0 1	0 0	1	0	0
+0 1	0 1	0	1	0
+0 1	1 0	0	0	1
+0 1	1 1	0	0	1
+1 0	0 0	1	0	0
+1 0	0 1	1	0	0
+1 0	1 0	0	1	0
+1 0	1 1	0	0	1
+1 1	0 0	1	0	0
+1 1	0 1	1	0	0
+1 1	1 0	1	0	0
+1 1	1 1	0	1	0
 
-![image](https://user-images.githubusercontent.com/99393183/154075342-17e40e3e-9201-40de-986f-52d6e0d60c04.png)
 
 
 2. Listing of VHDL architecture from design file (`design.vhd`) for all three functions. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
