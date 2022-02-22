@@ -19,7 +19,7 @@
 |1 1	|1 0	|1	|0	|0|
 |1 1	|1 1|	0|	1|	0|
 
-![image](https://user-images.githubusercontent.com/99393183/155115545-8022abaa-9def-412c-bff3-10ca05d54454.png)
+![image](https://user-images.githubusercontent.com/99393183/155115733-76b8dcb3-1b71-41fa-9711-a7304fb596ae.png)
 
 
 
