@@ -1,6 +1,7 @@
 # Lab 3: Petr Vaněk
 
 ### Three-bit wide 4-to-1 multiplexer
+https://www.edaplayground.com/x/kweJ
 
 1. Listing of VHDL architecture from source file `mux_3bit_4to1.vhd`. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
