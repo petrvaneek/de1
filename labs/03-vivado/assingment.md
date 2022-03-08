@@ -5,12 +5,21 @@ https://www.edaplayground.com/x/DGzJ
 1. Listing of VHDL architecture from source file `mux_3bit_4to1.vhd`. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
 ```vhdl
-architecture Behavioral of mux_3bit_4to1 is
+architecture Behavioral of comparator_4bit is
 begin
-
-    -- WRITE YOUR CODE HERE
-
+process (a_i,b_i,c_i,d_i,sel_i1,sel_i2) is begin
+	  if (sel_i1 ='0' and sel_i2 = '0') then
+      f_o <= a_i;
+  elsif (sel_i1 ='0' and sel_i2 = '1') then
+      f_o <= b_i;
+  elsif (sel_i1 ='1' and sel_i2 = '0') then
+      f_o <= c_i;
+  else
+      f_o <= d_i;
+  end if;
+ end process;
 end architecture Behavioral;
+
 ```
 
 2. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
