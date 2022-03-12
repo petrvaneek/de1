@@ -41,8 +41,7 @@
 
 2. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![your figure]()
-
+ ![image](https://user-images.githubusercontent.com/99393183/158033610-4a3d0d23-f7c9-4b98-9429-570fe38bfc73.png)
 ### LED(7:4) indicators
 
 1. Listing of LEDs(7:4) part of VHDL architecture from source file `top.vhd`. Try to write logic functions as simple as possible. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
