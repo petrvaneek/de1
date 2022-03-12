@@ -51,14 +51,15 @@
    -- Experiments on your own: LED(7:4) indicators
 
    -- Turn LED(4) on if input value is equal to 0, ie "0000"
-   -- LED(4) <= `0` when WRITE YOUR CODE HERE
+   -- LED(4) <= SW when seg_o = "0000";
 
    -- Turn LED(5) on if input value is greater than "1001", ie 10, 11, 12, ...
-   -- LED(5) <= WRITE YOUR CODE HERE
+   -- LED(5) <= SW when seg_o < "1101";
 
    -- Turn LED(6) on if input value is odd, ie 1, 3, 5, ...
-   -- LED(6) <= WRITE YOUR CODE HERE
+   -- LED(6) <= SW when(seg_o = '0001' or seg_o = '0011' or seg_o = '0101' or seg_o = '0111 ' or
+   seg_o = '1001');
 
    -- Turn LED(7) on if input value is a power of two, ie 1, 2, 4, or 8
-   -- LED(7) <= WRITE YOUR CODE HERE
+   -- LED(7) <= SW when(seg_o = '0001' or seg_o = '0010' or seg_o = '0100' or seg_o = '1000 ');
    ```
