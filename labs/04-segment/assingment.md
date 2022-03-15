@@ -61,7 +61,7 @@
              '1' when SW= "0011" else 
              '1' when SW = "0101" else
              '1' when SW = "0111 " else 
-             '1' when SW = "1001" else "0";
+             '1' when SW = "1001" else '0';
 
    -- Turn LED(7) on if input value is a power of two, ie 1, 2, 4, or 8
     LED(7) <=  '1' when SW = "0001" else
