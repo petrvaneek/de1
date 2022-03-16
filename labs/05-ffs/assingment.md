@@ -1,4 +1,5 @@
 # Lab 5: Petr Vaněk
+![image](https://user-images.githubusercontent.com/99393183/158591791-6d3405f3-742d-4e36-885d-3a8305e47f13.png)
 
 ### Flip-flops
 
