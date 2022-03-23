@@ -101,8 +101,8 @@ CODE HERE
             q_3 => s_ff3,
             q_bar => open
           -- WRITE YOUR CODE HERE
-ODE HERE
+
 
       );  -- PUT OTHER TWO FLIP-FLOP INSTANCES HERE
-LED(3 downto 0) <= dff_0, <= dff_1, <= dff2, <= dff_3;
+LED(3 downto 0) <= (s_ff0, s_ff1, s_ff2, s_ff3);
 end architecture Behavioral;
