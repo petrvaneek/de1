@@ -52,4 +52,4 @@
 
 1. Image of the 8-digit driver's block schematic. The image can be drawn on a computer or by hand. Always name all inputs, outputs, components, and internal signals!
 
-   ![image](https://user-images.githubusercontent.com/99393183/160831655-bd6d95a4-1bdb-4455-9e76-cf26a24811b8.png)
+  ![image](https://user-images.githubusercontent.com/99393183/160831949-90190272-f8ba-45c1-915f-53b2aed128d7.png)
