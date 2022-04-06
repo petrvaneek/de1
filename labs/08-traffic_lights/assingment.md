@@ -98,7 +98,7 @@ Traffic light controller
 
     Screenshot with simulated time waveforms. The full functionality of the entity must be verified. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-    your figure
+![image](https://user-images.githubusercontent.com/99393183/161967154-467453b6-32ef-40e0-b6f0-112c2a28998f.png)
 
 Smart controller
 
