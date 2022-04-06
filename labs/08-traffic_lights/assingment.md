@@ -97,8 +97,7 @@ Traffic light controller
     end process p_traffic_fsm;
 
     Screenshot with simulated time waveforms. The full functionality of the entity must be verified. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
-
-![image](https://user-images.githubusercontent.com/99393183/161967154-467453b6-32ef-40e0-b6f0-112c2a28998f.png)
+![image](https://user-images.githubusercontent.com/99393183/161973589-4a177a9a-e037-44d3-a43a-448c2c45fd38.png)
 
 Smart controller
 ![image](https://user-images.githubusercontent.com/99393183/161971399-8ec1817f-c0ab-4959-947a-39a32a950a72.png)
