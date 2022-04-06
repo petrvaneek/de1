@@ -100,6 +100,6 @@ Traffic light controller
 ![image](https://user-images.githubusercontent.com/99393183/161973589-4a177a9a-e037-44d3-a43a-448c2c45fd38.png)
 
 Smart controller
-![image](https://user-images.githubusercontent.com/99393183/161971399-8ec1817f-c0ab-4959-947a-39a32a950a72.png)
+![image](https://user-images.githubusercontent.com/99393183/161974050-bccaccec-8b95-44bb-9565-10dcaefe3cb3.png)
 
     State table for smart controller using two sensors and two traffic lights in three colors.
