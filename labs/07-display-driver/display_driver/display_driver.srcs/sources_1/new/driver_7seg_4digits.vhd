@@ -73,7 +73,7 @@ begin
         generic map(
             -- FOR SIMULATION, CHANGE THIS VALUE TO 4
             -- FOR IMPLEMENTATION, KEEP THIS VALUE TO 400,000
-            g_MAX => 800000
+            g_MAX => 1000000
         )
         port map(
             clk   => clk,
