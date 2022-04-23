@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="56" Path="C:/Users/petrv/OneDrive/Plocha/vhdl_alarm_clock/vhdl_alarm_clock.xpr">
+<Project Version="7" Minor="56" Path="C:/diel1/de1/Labs/Project/vhdl_alarm_clock/vhdl_alarm_clock.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="b811f3314e7a48839cd7e5ece3d0a753"/>
@@ -43,7 +43,7 @@
     <Option Name="SimulatorGccVersionRiviera" Val="6.2.0"/>
     <Option Name="SimulatorGccVersionActiveHdl" Val="6.2.0"/>
     <Option Name="BoardPart" Val=""/>
-    <Option Name="BoardPartRepoPaths" Val="$PPRDIR/../../../AppData/Roaming/Xilinx/Vivado/2021.2/xhub/board_store/xilinx_board_store"/>
+    <Option Name="BoardPartRepoPaths" Val="$PPRDIR/../../../../../Users/petrv/AppData/Roaming/Xilinx/Vivado/2021.2/xhub/board_store/xilinx_board_store"/>
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>
@@ -86,55 +86,55 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
       <Filter Type="Srcs"/>
-      <File Path="$PPRDIR/../VHDL-Alarm-Clock-main/Alarm_Clock.srcs/sources_1/new/clk_divider.vhd">
+      <File Path="$PPRDIR/../../../../../Users/petrv/OneDrive/Plocha/VHDL-Alarm-Clock-main/Alarm_Clock.srcs/sources_1/new/clk_divider.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../VHDL-Alarm-Clock-main/Alarm_Clock.srcs/sources_1/new/run_clock.vhd">
+      <File Path="$PPRDIR/../../../../../Users/petrv/OneDrive/Plocha/VHDL-Alarm-Clock-main/Alarm_Clock.srcs/sources_1/new/run_clock.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../VHDL-Alarm-Clock-main/Alarm_Clock.srcs/sources_1/new/set_clock.vhd">
+      <File Path="$PPRDIR/../../../../../Users/petrv/OneDrive/Plocha/VHDL-Alarm-Clock-main/Alarm_Clock.srcs/sources_1/new/set_clock.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../VHDL-Alarm-Clock-main/Alarm_Clock.srcs/sources_1/new/set_alarm.vhd">
+      <File Path="$PPRDIR/../../../../../Users/petrv/OneDrive/Plocha/VHDL-Alarm-Clock-main/Alarm_Clock.srcs/sources_1/new/set_alarm.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../VHDL-Alarm-Clock-main/Alarm_Clock.srcs/sources_1/new/segment_driver.vhd">
+      <File Path="$PPRDIR/../../../../../Users/petrv/OneDrive/Plocha/VHDL-Alarm-Clock-main/Alarm_Clock.srcs/sources_1/new/segment_driver.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../VHDL-Alarm-Clock-main/Alarm_Clock.srcs/sources_1/new/btn_debouncer.vhd">
+      <File Path="$PPRDIR/../../../../../Users/petrv/OneDrive/Plocha/VHDL-Alarm-Clock-main/Alarm_Clock.srcs/sources_1/new/btn_debouncer.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../VHDL-Alarm-Clock-main/Alarm_Clock.srcs/sources_1/new/Alarm.vhd">
+      <File Path="$PPRDIR/../../../../../Users/petrv/OneDrive/Plocha/VHDL-Alarm-Clock-main/Alarm_Clock.srcs/sources_1/new/Alarm.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../VHDL-Alarm-Clock-main/Alarm_Clock.srcs/sources_1/new/segment_decoder.vhd">
+      <File Path="$PPRDIR/../../../../../Users/petrv/OneDrive/Plocha/VHDL-Alarm-Clock-main/Alarm_Clock.srcs/sources_1/new/segment_decoder.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../VHDL-Alarm-Clock-main/Alarm_Clock.srcs/sources_1/new/segment_divider.vhd">
+      <File Path="$PPRDIR/../../../../../Users/petrv/OneDrive/Plocha/VHDL-Alarm-Clock-main/Alarm_Clock.srcs/sources_1/new/segment_divider.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -165,6 +165,7 @@
       </Config>
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1" RelGenDir="$PGENDIR/sim_1">
+      <Filter Type="Srcs"/>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="top"/>
@@ -206,11 +207,9 @@
     </Simulator>
   </Simulators>
   <Runs Version="1" Minor="15">
-    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xa7a50tcsg324-1I" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="true" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/synth_1">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xa7a50tcsg324-1I" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="true" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PPRDIR/../../../../../Users/petrv/OneDrive/Plocha/vhdl_alarm_clock/vhdl_alarm_clock.srcs/utils_1/imports/synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2021">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2021"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -218,11 +217,9 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xa7a50tcsg324-1I" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/impl_1">
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xa7a50tcsg324-1I" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../../../../Users/petrv/OneDrive/Plocha/vhdl_alarm_clock/vhdl_alarm_clock.srcs/utils_1/imports/impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
