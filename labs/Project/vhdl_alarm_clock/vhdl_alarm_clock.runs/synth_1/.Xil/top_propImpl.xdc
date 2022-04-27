@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:C:/Users/petrv/OneDrive/Plocha/vhdl_alarm_clock/vhdl_alarm_clock.srcs/constrs_1/new/nexys-a7-50-t.xdc rfile:../../../vhdl_alarm_clock.srcs/constrs_1/new/nexys-a7-50-t.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/diel1/de1/Labs/Project/vhdl_alarm_clock/vhdl_alarm_clock.srcs/constrs_1/new/nexys-a7-50-t.xdc rfile:../../../vhdl_alarm_clock.srcs/constrs_1/new/nexys-a7-50-t.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:7 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN E3    IOSTANDARD LVCMOS33 } [get_ports { CLK100MHZ }]; #IO_L12P_T1_MRCC_35 Sch=clk100mhz
 set_property src_info {type:XDC file:1 line:12 export:INPUT save:INPUT read:READ} [current_design]
@@ -29,6 +29,10 @@ set_property src_info {type:XDC file:1 line:42 export:INPUT save:INPUT read:READ
 set_property -dict { PACKAGE_PIN V15   IOSTANDARD LVCMOS33 } [get_ports { LEDs[6] }]; #IO_L16P_T2_CSI_B_14 Sch=led[12]
 set_property src_info {type:XDC file:1 line:43 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN V14   IOSTANDARD LVCMOS33 } [get_ports { LEDs[7] }]; #IO_L22N_T3_A04_D20_14 Sch=led[13]
+set_property src_info {type:XDC file:1 line:49 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN M16   IOSTANDARD LVCMOS33 } [get_ports { LED16_G }]; #IO_L10P_T1_D14_14 Sch=led16_g
+set_property src_info {type:XDC file:1 line:53 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN N16   IOSTANDARD LVCMOS33 } [get_ports { LED17_R }]; #IO_L11N_T1_SRCC_14 Sch=led17_r
 set_property src_info {type:XDC file:1 line:56 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN T10   IOSTANDARD LVCMOS33 } [get_ports { CA }]; #IO_L24N_T3_A00_D16_14 Sch=ca
 set_property src_info {type:XDC file:1 line:57 export:INPUT save:INPUT read:READ} [current_design]

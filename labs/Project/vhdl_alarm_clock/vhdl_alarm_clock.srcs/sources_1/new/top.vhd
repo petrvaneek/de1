@@ -49,6 +49,8 @@ entity top is
            CF : out STD_LOGIC;
            CG : out STD_LOGIC;
            AN : out STD_LOGIC_VECTOR (1 downto 0);
+           LED16_G :out std_logic;
+           LED17_R : out std_logic;
            ANs : out STD_LOGIC_VECTOR (7 downto 2)
            );
 end top;
@@ -83,7 +85,9 @@ Alarmclock: entity work.Alarm
         alarm_segD => CD,
         alarm_segE => CE,
         alarm_segF => CF,
-        alarm_segG => CG
+        alarm_segG => CG,
+        ledg => LED16_G,
+        ledr => LED17_R
         
         
 );

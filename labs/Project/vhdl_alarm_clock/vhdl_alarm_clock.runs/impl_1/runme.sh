@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/petrv/OneDrive/Plocha/vhdl_alarm_clock/vhdl_alarm_clock.runs/impl_1'
+HD_PWD='C:/diel1/de1/Labs/Project/vhdl_alarm_clock/vhdl_alarm_clock.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
