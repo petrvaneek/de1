@@ -235,7 +235,40 @@ begin
             
             
         end process;
+         process(clk, clk_divided)
+ variable flash: boolean := false;
+ variable light: std_logic_vector(7 downto 0) := "11111111";
+ variable red: std_logic := '1';
+ variable green: std_logic :='1';
+ variable temp : std_logic := '0';
+ begin          
+ if(toggle_alarm = '0') then
+            flash := false;
+        elsif(toggle_alarm = '1') then
+            if(rising_edge(clk)) then
+                if(alarm_time = clock_time) then
+                    flash := true;
+                end if;
+            end if;
+        end if;
         
+        if(flash = true) then
+            a <= light;
+            ledr <= red;
+            ledg <= green;
+            if(rising_edge(clk_divided)) then
+                red := not red;
+                green := not green;
+                light := not light;
+            end if;
+        else
+            a <= "00000000";
+            ledg <= '0';
+            ledr <= '0';
+        end if;
+        
+        
+    end process;  
     
 
 end Behavioral;
