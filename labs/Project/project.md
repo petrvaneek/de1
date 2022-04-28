@@ -1,40 +1,35 @@
-YOUR_PROJECT_TITLE
-Team members
+# Digital clock
 
-    Member 1 (responsible for xxx)
-    Member 2 (responsible for xxx)
-    Member 3 (responsible for xxx)
-    ...
+### Team members
 
-Table of contents
+* Petr Vaněk (responsible for xxx)
+* František Štefkovič (responsible for xxx)
+* Šimon Špánik (responsible for xxx)
+* ...
 
-    Project objectives
-    Hardware description
-    VHDL modules description and simulations
-    TOP module description and simulations
-    Video
-    References
+### Table of contents
 
-Project objectives
+* [Project objectives](#objectives)
+* [Hardware description](#hardware)
+* [VHDL modules description and simulations](#modules)
+* [TOP module description and simulations](#top)
+* [Video](#video)
+* [References](#references)
 
-Write your text here.
+<a name="objectives"></a>
 
-Hardware description
-
-Write your text here.
-
-VHDL modules description and simulations
+## Project objectives
 
 Write your text here.
 
-TOP module description and simulations
+<a name="hardware"></a>
+
+## Hardware description
 
 Write your text here.
 
-Video
+<a name="modules"></a>
 
-Write your text here
+## VHDL modules description and simulations
 
-References
-
-    Write your text here.
+Write your text here.
