@@ -2,7 +2,7 @@
 
 ### Team members
 
-* Petr Vaněk (responsible for alarm setter,clock setter,alarm trigger)
+* Petr Vaněk (responsible for alarm setter,clock setter)
 * František Štefkovič (responsible for xxx)
 * Šimon Špánik (responsible for xxx)
 * ...
