@@ -37,7 +37,9 @@ entity Alarm is
         alarm_segD : out STD_LOGIC;
         alarm_segE : out STD_LOGIC;
         alarm_segF : out STD_LOGIC;
-        alarm_segG : out STD_LOGIC
+        alarm_segG : out STD_LOGIC;
+	ledr : out std_logic;
+	ledg : out std_logic
     );
 end Alarm;
 
