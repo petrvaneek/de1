@@ -25,7 +25,7 @@ The task of this project was to create digital clock with controls to set the ti
 
 ## Hardware description
 
-Write your text here.
+For software implementation was used VHDL code and program Vivado, which generated the VHDL code on hardware. The hardware, that has been used is called Nexys A7 50 T from Xilinx and code to the desk was implemented thorugh USB port, which lead from computer.
 
 <a name="modules"></a>
 
