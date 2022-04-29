@@ -19,7 +19,7 @@
 
 ## Project objectives
 
-Write your text here.
+The task of this project was to create digital clock with controls to set the time and alarm and when the clock will match the time with the time, which we set on alarm, it will trigger the alarm through Led signalisation. For time setting were used buttons on the board. User can toggle the alarm, if alarm is switched on, the led upon the switch 2 is going to be on. The clock runs on 100 MHz and are brought down to 1 Hz.
 
 <a name="hardware"></a>
 
