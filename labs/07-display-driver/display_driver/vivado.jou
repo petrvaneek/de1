@@ -12,3 +12,4 @@
 #-----------------------------------------------------------
 start_gui
 open_project C:/diel1/de1/Labs/07-display-driver/display_driver/display_driver.xpr
+update_compile_order -fileset sources_1

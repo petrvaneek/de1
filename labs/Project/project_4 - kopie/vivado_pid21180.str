@@ -532,3 +532,4 @@ selectCodeEditor("segment_driver.vhd", 167, 68); // be
 typeControlKey((HResource) null, "segment_driver.vhd", 'v'); // be
 // TclEventType: DG_GRAPH_STALE
 // TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,416 MB. GUI used memory: 80 MB. Current time: 5/1/22, 2:40:06 PM CEST

@@ -107,3 +107,32 @@ dismissDialog("Open Project"); // bA
 // [GUI Memory]: 102 MB (+16535kb) [00:00:16]
 // Tcl Message: update_compile_order -fileset sources_1 
 // [GUI Memory]: 133 MB (+27664kb) [00:01:33]
+// Elapsed time: 498 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : Alarm(Behavioral) (Alarm.vhd)]", 2); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : Alarm(Behavioral) (Alarm.vhd), clock : run_clock(Behavioral) (run_clock.vhd)]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : Alarm(Behavioral) (Alarm.vhd), alarm_setter : set_alarm(Behavioral) (set_alarm.vhd)]", 6, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : Alarm(Behavioral) (Alarm.vhd), alarm_setter : set_alarm(Behavioral) (set_alarm.vhd)]", 6, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1337 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : Alarm(Behavioral) (Alarm.vhd), alarm_setter : set_alarm(Behavioral) (set_alarm.vhd)]", 6, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : Alarm(Behavioral) (Alarm.vhd), alarm_setter : set_alarm(Behavioral) (set_alarm.vhd)]", 6, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("set_alarm.vhd", 325, 138); // be
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : Alarm(Behavioral) (Alarm.vhd), divider : clock_enable(Behavioral) (clk_divider.vhd)]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : Alarm(Behavioral) (Alarm.vhd), divider : clock_enable(Behavioral) (clk_divider.vhd)]", 3, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1247 ms.
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : Alarm(Behavioral) (Alarm.vhd)]", 2, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : Alarm(Behavioral) (Alarm.vhd)]", 2, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1300 ms.
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : Alarm(Behavioral) (Alarm.vhd)]", 2, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : Alarm(Behavioral) (Alarm.vhd), clock : run_clock(Behavioral) (run_clock.vhd)]", 4, false, false, false, false, false, true); // D - Double Click
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : Alarm(Behavioral) (Alarm.vhd), divider : clock_enable(Behavioral) (clk_divider.vhd)]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : Alarm(Behavioral) (Alarm.vhd), divider : clock_enable(Behavioral) (clk_divider.vhd)]", 3, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : Alarm(Behavioral) (Alarm.vhd), clock : run_clock(Behavioral) (run_clock.vhd)]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : Alarm(Behavioral) (Alarm.vhd), clock : run_clock(Behavioral) (run_clock.vhd)]", 4, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1289 ms.
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : Alarm(Behavioral) (Alarm.vhd), clock : run_clock(Behavioral) (run_clock.vhd)]", 4, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "Source Node Properties..."); // ao
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES

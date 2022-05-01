@@ -106,3 +106,60 @@ Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 // Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/diel1/de1/Labs/07-display-driver/display_driver/display_driver.gen/sources_1'. 
 // Tcl Message: Scanning sources... Finished scanning sources 
 // Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.2/data/ip'. 
+// [GUI Memory]: 95 MB (+8283kb) [00:00:14]
+// [GUI Memory]: 122 MB (+22749kb) [00:00:15]
+// Tcl Message: open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:09 . Memory (MB): peak = 1412.602 ; gain = 0.000 
+// Project name: display_driver; location: C:/diel1/de1/Labs/07-display-driver/display_driver; part: xc7a50ticsg324-1L
+dismissDialog("Open Project"); // bA
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (top.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd)]", 1, true, false, false, false, false, true); // D - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd)]", 1, true); // D - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1710 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd)]", 1, true); // D - Node
+dismissDialog("Opening Editor"); // bA
+// [GUI Memory]: 132 MB (+3631kb) [00:01:04]
+// Elapsed time: 590 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd)]", 1); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : driver_7seg_4digits(Behavioral) (driver_7seg_4digits.vhd)]", 2); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : driver_7seg_4digits(Behavioral) (driver_7seg_4digits.vhd), clk_en0 : clock_enable(Behavioral) (clock_enable.vhd)]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : driver_7seg_4digits(Behavioral) (driver_7seg_4digits.vhd), clk_en0 : clock_enable(Behavioral) (clock_enable.vhd)]", 3, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1259 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("clock_enable.vhd", 349, 342); // be
+selectCodeEditor("clock_enable.vhd", 270, 323); // be
+typeControlKey((HResource) null, "clock_enable.vhd", 'c'); // be
+// Elapsed time: 131 seconds
+selectCodeEditor("clock_enable.vhd", 281, 229); // be
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : driver_7seg_4digits(Behavioral) (driver_7seg_4digits.vhd), hex2seg : hex_7seg(Behavioral) (hex_7seg.vhd)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : driver_7seg_4digits(Behavioral) (driver_7seg_4digits.vhd), hex2seg : hex_7seg(Behavioral) (hex_7seg.vhd)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : driver_7seg_4digits(Behavioral) (driver_7seg_4digits.vhd), hex2seg : hex_7seg(Behavioral) (hex_7seg.vhd)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : driver_7seg_4digits(Behavioral) (driver_7seg_4digits.vhd), hex2seg : hex_7seg(Behavioral) (hex_7seg.vhd)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : driver_7seg_4digits(Behavioral) (driver_7seg_4digits.vhd), hex2seg : hex_7seg(Behavioral) (hex_7seg.vhd)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : driver_7seg_4digits(Behavioral) (driver_7seg_4digits.vhd), hex2seg : hex_7seg(Behavioral) (hex_7seg.vhd)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : driver_7seg_4digits(Behavioral) (driver_7seg_4digits.vhd), hex2seg : hex_7seg(Behavioral) (hex_7seg.vhd)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : driver_7seg_4digits(Behavioral) (driver_7seg_4digits.vhd), hex2seg : hex_7seg(Behavioral) (hex_7seg.vhd)]", 5, false); // D
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : driver_7seg_4digits(Behavioral) (driver_7seg_4digits.vhd), bin_cnt0 : cnt_up_down(behavioral) (cnt_up_down.vhd)]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : driver_7seg_4digits(Behavioral) (driver_7seg_4digits.vhd), hex2seg : hex_7seg(Behavioral) (hex_7seg.vhd)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : driver_7seg_4digits(Behavioral) (driver_7seg_4digits.vhd), hex2seg : hex_7seg(Behavioral) (hex_7seg.vhd)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : driver_7seg_4digits(Behavioral) (driver_7seg_4digits.vhd), hex2seg : hex_7seg(Behavioral) (hex_7seg.vhd)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : driver_7seg_4digits(Behavioral) (driver_7seg_4digits.vhd), hex2seg : hex_7seg(Behavioral) (hex_7seg.vhd)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : driver_7seg_4digits(Behavioral) (driver_7seg_4digits.vhd), hex2seg : hex_7seg(Behavioral) (hex_7seg.vhd)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : driver_7seg_4digits(Behavioral) (driver_7seg_4digits.vhd), hex2seg : hex_7seg(Behavioral) (hex_7seg.vhd)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : driver_7seg_4digits(Behavioral) (driver_7seg_4digits.vhd), hex2seg : hex_7seg(Behavioral) (hex_7seg.vhd)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : driver_7seg_4digits(Behavioral) (driver_7seg_4digits.vhd), hex2seg : hex_7seg(Behavioral) (hex_7seg.vhd)]", 5, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1201 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : driver_7seg_4digits(Behavioral) (driver_7seg_4digits.vhd), hex2seg : hex_7seg(Behavioral) (hex_7seg.vhd)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : driver_7seg_4digits(Behavioral) (driver_7seg_4digits.vhd), hex2seg : hex_7seg(Behavioral) (hex_7seg.vhd)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : driver_7seg_4digits(Behavioral) (driver_7seg_4digits.vhd), hex2seg : hex_7seg(Behavioral) (hex_7seg.vhd)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : driver_7seg_4digits(Behavioral) (driver_7seg_4digits.vhd), hex2seg : hex_7seg(Behavioral) (hex_7seg.vhd)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : driver_7seg_4digits(Behavioral) (driver_7seg_4digits.vhd), hex2seg : hex_7seg(Behavioral) (hex_7seg.vhd)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : driver_7seg_4digits(Behavioral) (driver_7seg_4digits.vhd), hex2seg : hex_7seg(Behavioral) (hex_7seg.vhd)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : driver_7seg_4digits(Behavioral) (driver_7seg_4digits.vhd), hex2seg : hex_7seg(Behavioral) (hex_7seg.vhd)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : driver_7seg_4digits(Behavioral) (driver_7seg_4digits.vhd), hex2seg : hex_7seg(Behavioral) (hex_7seg.vhd)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), driver_seg_4 : driver_7seg_4digits(Behavioral) (driver_7seg_4digits.vhd), hex2seg : hex_7seg(Behavioral) (hex_7seg.vhd)]", 5, false); // D
+selectCodeEditor("hex_7seg.vhd", 367, 335); // be
+typeControlKey((HResource) null, "hex_7seg.vhd", 'c'); // be
+selectCodeEditor("hex_7seg.vhd", 584, 109); // be
