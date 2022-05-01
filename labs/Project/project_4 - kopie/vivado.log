@@ -113,3 +113,7 @@ source alarm_tb.tcl
 INFO: [USF-XSim-96] XSim completed. Design snapshot 'alarm_tb_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 86400 s
 launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2371.242 ; gain = 31.668
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun May  1 15:11:25 2022...
