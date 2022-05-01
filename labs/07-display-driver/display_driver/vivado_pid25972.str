@@ -163,3 +163,4 @@ selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sourc
 selectCodeEditor("hex_7seg.vhd", 367, 335); // be
 typeControlKey((HResource) null, "hex_7seg.vhd", 'c'); // be
 selectCodeEditor("hex_7seg.vhd", 584, 109); // be
+// HMemoryUtils.trashcanNow. Engine heap size: 1,407 MB. GUI used memory: 75 MB. Current time: 5/1/22, 2:45:04 PM CEST
