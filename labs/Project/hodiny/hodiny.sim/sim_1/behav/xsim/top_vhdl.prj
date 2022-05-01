@@ -1,0 +1,15 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../../../../diel1/de1/Labs/Project/digital clock/digital_clock.srcs/sources_1/new/clk_divider.vhd" \
+"../../../../../../../../../diel1/de1/Labs/Project/digital clock/digital_clock.srcs/sources_1/new/run_clock.vhd" \
+"../../../../../../../../../diel1/de1/Labs/Project/digital clock/digital_clock.srcs/sources_1/new/set_clock.vhd" \
+"../../../../../../../../../diel1/de1/Labs/Project/digital clock/digital_clock.srcs/sources_1/new/set_alarm.vhd" \
+"../../../../../../../../../diel1/de1/Labs/Project/digital clock/digital_clock.srcs/sources_1/new/segment_driver.vhd" \
+"../../../../../../../../../diel1/de1/Labs/Project/digital clock/digital_clock.srcs/sources_1/new/btn_debouncer.vhd" \
+"../../../../../../../../../diel1/de1/Labs/Project/digital clock/digital_clock.srcs/sources_1/new/Alarm.vhd" \
+"../../../../../../../../../diel1/de1/Labs/Project/digital clock/digital_clock.srcs/sources_1/new/segment_decoder.vhd" \
+"../../../../../../../../../diel1/de1/Labs/Project/digital clock/digital_clock.srcs/sources_1/new/segment_divider.vhd" \
+"../../../../../../../../../diel1/de1/Labs/Project/digital clock/digital_clock.srcs/sources_1/new/top.vhd" \
+
+# Do not sort compile order
+nosort
