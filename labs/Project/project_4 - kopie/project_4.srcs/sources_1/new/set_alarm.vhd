@@ -37,7 +37,7 @@ signal h_up_mem : std_logic;
 signal h_dwn_mem: std_logic;
 signal m_up_mem : std_logic;
 signal m_dwn_mem: std_logic;
-
+signal s_reset_mem: std_logic;
 begin
    
     process(clk)
@@ -91,7 +91,14 @@ begin
                         alarm_mins_lsb <= alarm_mins_lsb - "0001";
                     end if;
                 end if;
-                    
+                    if(s_reset = '1') then
+                    alarm_hours_msb <= "0000";
+                    alarm_hours_lsb <= "0000";
+                    alarm_mins_msb <= "0000";
+                    alarm_mins_lsb <= "0000";
+                    alarm_sec_lsb <= "0000";
+                    alarm_sec_msb <= "0000";
+                end if;      
             end if;
         end if;
     
@@ -134,14 +141,11 @@ begin
             elsif(mins_dwn = '0' and m_dwn_mem = '1') then
                 m_dwn_mem <= '0';
             end if;
-                    if(s_reset = '1') then
-                    alarm_hours_msb <= "0000";
-                    alarm_hours_lsb <= "0000";
-                    alarm_mins_msb <= "0000";
-                    alarm_mins_lsb <= "0000";
-                    alarm_sec_lsb <= "0000";
-                    alarm_sec_msb <= "0000";
-                end if;
+            if(sec_reset = '1' and s_reset_mem = '0') then
+                s_reset_mem <= '1';
+            elsif(sec_reset = '0' and s_reset_mem = '1') then
+                s_reset_mem <= '0';
+            end if;
             
         end if;
     end process;
@@ -150,5 +154,5 @@ begin
     h_dwn <= hrs_dwn and not h_dwn_mem;
     m_up <= mins_up and not m_up_mem;
     m_dwn <= mins_dwn and not m_dwn_mem;
-
+    s_reset <= sec_reset and not s_reset_mem;
 end Behavioral;

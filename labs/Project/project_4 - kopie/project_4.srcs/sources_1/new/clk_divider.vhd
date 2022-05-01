@@ -26,7 +26,7 @@ entity clock_enable is
     port(
         clk   : in  std_logic; -- Main clock
         reset : in  std_logic; -- Synchronous reset
-        CLKout  : out std_logic  -- Clock enable pulse signal
+        ce_o  : out std_logic  -- Clock enable pulse signal
     );
 end entity clock_enable;
 

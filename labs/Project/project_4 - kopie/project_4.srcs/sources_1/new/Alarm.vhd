@@ -97,7 +97,7 @@ begin
     
     -- 1 second clock divider
     divider: entity work.clock_enable(Behavioral)
-		port map(clk => clk, reset => '1', CLKout => clk_divided);
+		port map(clk => clk, reset => '1', ce_o => clk_divided);
 	
 	-- Running clock component	
 	clock: entity work.run_clock(Behavioral)
@@ -139,8 +139,8 @@ begin
             mins_msb => disp_mins_msb, mins_lsb => disp_mins_lsb, 
             sec_msb => disp_sec_msb,  sec_lsb => disp_sec_lsb,
             -- Segments
-            segA => alarm_segA, segB => alarm_segB, segC => alarm_segC, segD => alarm_segD,
-            segE => alarm_segE, segF => alarm_segF, segG => alarm_segG,
+            seg_o(0)=> alarm_segA, seg_o(1) => alarm_segB, seg_o(2)=> alarm_segC, seg_o(3)=> alarm_segD,
+            seg_o(4) => alarm_segE, seg_o(5) => alarm_segF, seg_o(6) => alarm_segG,
             -- Displays
             sel_hours_msb => alarm_sel_hours_msb, sel_hours_lsb => alarm_sel_hours_lsb,
             sel_mins_msb => alarm_sel_mins_msb, sel_mins_lsb => alarm_sel_mins_lsb,
