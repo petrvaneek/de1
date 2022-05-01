@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sun May  1 13:44:02 2022
+# Process ID: 25152
+# Current directory: C:/Users/petrv/OneDrive/Plocha/project_4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28620 C:\Users\petrv\OneDrive\Plocha\project_4\project_4.xpr
+# Log file: C:/Users/petrv/OneDrive/Plocha/project_4/vivado.log
+# Journal file: C:/Users/petrv/OneDrive/Plocha/project_4\vivado.jou
+# Running On: LAPTOP-9IM6L6CH, OS: Windows, CPU Frequency: 2592 MHz, CPU Physical cores: 6, Host memory: 16954 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/petrv/OneDrive/Plocha/project_4/project_4.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/petrv/OneDrive/Plocha/VHDL-Alarm-Clock-main/Alarm_Clock.srcs/sources_1/new/pwm.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/petrv/OneDrive/Plocha/VHDL-Alarm-Clock-main/Alarm_Clock.srcs/sources_1/new/pwm.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/petrv/OneDrive/Plocha/VHDL-Alarm-Clock-main/Alarm_Clock.srcs/sources_1/new/pwm_driver.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/petrv/OneDrive/Plocha/VHDL-Alarm-Clock-main/Alarm_Clock.srcs/sources_1/new/pwm_driver.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/petrv/OneDrive/Plocha/VHDL-Alarm-Clock-main/Alarm_Clock.srcs/constrs_1/imports/Downloads/FPGA_Lab-2_Xilinx-Nexys-4-DDR-Master.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 C:/Users/petrv/OneDrive/Plocha/VHDL-Alarm-Clock-main/Alarm_Clock.srcs/constrs_1/imports/Downloads/FPGA_Lab-2_Xilinx-Nexys-4-DDR-Master.xdc
+file mkdir C:/Users/petrv/OneDrive/Plocha/project_4/project_4.srcs/sources_1/new
+close [ open C:/Users/petrv/OneDrive/Plocha/project_4/project_4.srcs/sources_1/new/top.vhd w ]
+add_files C:/Users/petrv/OneDrive/Plocha/project_4/project_4.srcs/sources_1/new/top.vhd
+update_compile_order -fileset sources_1
+file mkdir C:/Users/petrv/OneDrive/Plocha/project_4/project_4.srcs/constrs_1
+file mkdir C:/Users/petrv/OneDrive/Plocha/project_4/project_4.srcs/constrs_1/new
+close [ open C:/Users/petrv/OneDrive/Plocha/project_4/project_4.srcs/constrs_1/new/nexys.xdc w ]
+add_files -fileset constrs_1 C:/Users/petrv/OneDrive/Plocha/project_4/project_4.srcs/constrs_1/new/nexys.xdc
