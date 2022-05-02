@@ -77,6 +77,7 @@ Button state memory
 
 ## Top modules description and simulations
 Assigns output variables to the hardware  components of Nexys board 
+
 ![image](https://user-images.githubusercontent.com/99393183/166269814-edd1f6ba-52fd-4533-8724-91fc828c1679.png)
 
 ![image](https://user-images.githubusercontent.com/99393183/166233215-7386dcb7-3b47-4a44-8a09-5cdfabb83a8d.png)
