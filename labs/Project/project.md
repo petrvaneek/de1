@@ -48,6 +48,8 @@ clock_hours_lsb -> 0X:00:00
 clock_hours_msb -> X0:00:00
 
 where, lsb means less significant bit and msb means most significant bit and the changing variable is X.
+![image](https://user-images.githubusercontent.com/99393183/166229733-1bba0833-32cf-4c88-92b8-265defed8ac9.png)
+
 ![image](https://user-images.githubusercontent.com/99393183/165782881-e94ad8ed-d805-4d98-8501-4512398fbb71.png)
 
 # 7- segment display
