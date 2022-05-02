@@ -32,4 +32,17 @@ For software implementation was used VHDL code and program Vivado, which generat
 
 ## VHDL modules description and simulations
 
+# Clock Counter
+The principle of the clock counter is very simple. Time runs when the switch is in the low position, which means that SW [0] is closed at the bottom. 6 variables are created, where individual units of time are added. The algorithm is created using if conditions, where when the value of the less significant bit reaches 9, the value of the more significant bit starts to be added, and when both values reach the condition, they are reset. Minutes and hours are done on the same principle.
+
+clock_sec_lsb -> 00:00:0X
+clock_sec_msb -> 00:00:X0
+clock_mins_lsb -> 00:0X:00
+clock_mins_msb -> 00:X0:00
+clock_hours_lsb -> 0X:00:00
+clock_hours_msb -> X0:00:00
+
+where, lsb means less significant bit and msb means most significant bit and the changing variable is X.
+
+
 ![image](https://user-images.githubusercontent.com/99393183/165782881-e94ad8ed-d805-4d98-8501-4512398fbb71.png)
