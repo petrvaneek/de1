@@ -31,6 +31,9 @@ For software implementation was used VHDL code and program Vivado, which generat
 <a name="modules"></a>
 
 ## VHDL modules description and simulations
+# Clock Divider
+The input is 100 MHz clock signal and the output is 1Hz signal for clock (clock signal).   We implemented it using a counter – counter uses integer signal „count“ and temporary signal „temp“. At rising edge of the 100MHz input clock signal „count“ increments by one until it reaches 50 000 000. During this time the input clock signal is in half to 100 MHz and variable „temp“ will be flipped to „not temp“ – then „temp“ will have high level for half time and low level for remainder. This will cause that output clock signal will have a positive or negative event every half second, resulting in a full period of one second. „Temp“ value will be assigned to the output CLKout. CLKout is connected to the components  using the clk_divided signal in the top module.
+![image](https://user-images.githubusercontent.com/99393183/166238424-9515f4da-9895-42c4-a129-f5fac7980496.png)
 
 # Clock Counter
 The principle of the clock counter is very simple. Time runs when the switch is in the low position, which means that SW [0] is closed at the bottom. 6 variables are created, where individual units of time are added. The algorithm is created using if conditions, where when the value of the less significant bit reaches 9, the value of the more significant bit starts to be added, and when both values reach the condition, they are reset. Minutes and hours are done on the same principle.
