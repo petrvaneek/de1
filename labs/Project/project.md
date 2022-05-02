@@ -80,6 +80,15 @@ Assigns output variables to the hardware  components of Nexys board
 
 ![image](https://user-images.githubusercontent.com/99393183/166269814-edd1f6ba-52fd-4533-8724-91fc828c1679.png)
 
+![image](https://user-images.githubusercontent.com/99393183/166269991-6255086b-cd3e-4f81-bd14-29827589a90a.png)
+
+![image](https://user-images.githubusercontent.com/99393183/166270018-f3cc2b48-8782-4a56-b6f8-5c79db9d10f1.png)
+
+![image](https://user-images.githubusercontent.com/99393183/166270050-649a9bec-b8e8-4927-90cd-fdac51a36d65.png)
+
+![image](https://user-images.githubusercontent.com/99393183/166270077-170a45d1-9f69-472b-9e93-b87fe0f8dc95.png)
+
+
 ![image](https://user-images.githubusercontent.com/99393183/166233215-7386dcb7-3b47-4a44-8a09-5cdfabb83a8d.png)
 
 [schematic.pdf](https://github.com/petrvaneek/de1/files/8602648/schematic.pdf)
