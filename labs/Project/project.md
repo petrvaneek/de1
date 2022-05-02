@@ -56,11 +56,13 @@ where, lsb means less significant bit and msb means most significant bit and the
 The seven segment diodes on the Nexys A7-50T board are of the common anode type. This means that the individual segments light up when the state is "0". To display individual digits in the BCD on the display, we have created a decoder that assigns a vector for display on a 7-segment display to each numeric value (0000 to 1001).
 To display the individual time variables, it is necessary to run the displays at high speed,
 to make it seem to our human eye that they are all going at the same time, but only one is always active. For this purpose, we created a clock signal divider. The display works in such a way that the algorithm cycles through the individual displays and assigns them individual values on the devided frequency.
+
 ![image](https://user-images.githubusercontent.com/99393183/166230203-547187ce-f3b9-45b4-8ed6-d1e2b2a23fae.png)
 ![image](https://user-images.githubusercontent.com/99393183/166230247-3af8acd5-95e2-464c-a35a-0b61ea3db2d7.png)
 
 # Alarm Signalization
 If the conditions for starting the alarm are met, ie if the time coincides with the set one and SW [2] is in the upper position, the alarm will start. The signaling consists of 8 LEDs and two RGB LEDs that flash at the rising edge of frequency of the second clock signal. The alarm goes off when we set SW [2] to the lower position.
+
 ![image](https://user-images.githubusercontent.com/99393183/166230392-da33a64f-8b82-48a7-a87e-a4992d9bc71a.png)
 
 # Setting the time and button state memory
