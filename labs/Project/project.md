@@ -4,8 +4,8 @@
 ### Team members
 
 * Petr Vaněk (responsible for alarm setter,clock setter)
-* František Štefkovič (responsible for xxx)
-* Šimon Špánik (responsible for xxx)
+* František Štefkovič (responsible for design of schematic and button debouncer, divider,top)
+* Šimon Špánik (responsible for Alarm, segment driver, clock run)
 
 ### Table of contents
 
