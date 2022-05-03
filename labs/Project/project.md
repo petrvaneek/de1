@@ -92,3 +92,5 @@ Assigns output variables to the hardware  components of Nexys board
 ![image](https://user-images.githubusercontent.com/99393183/166233215-7386dcb7-3b47-4a44-8a09-5cdfabb83a8d.png)
 
 [schematic.pdf](https://github.com/petrvaneek/de1/files/8602648/schematic.pdf)
+## Video
+https://www.youtube.com/watch?v=LTTe8xP9w9E
