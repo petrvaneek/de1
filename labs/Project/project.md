@@ -4,8 +4,11 @@
 ### Team members
 
 * Petr Vaněk (responsible for alarm setter,clock setter)
+* https://github.com/petrvaneek/de1
 * František Štefkovič (responsible for design of schematic and button debouncer, divider,top)
+* https://github.com/FrantisekStefkovic2/digital-electronics-1
 * Šimon Špánik (responsible for Alarm, segment driver, clock run)
+* https://github.com/xspani02/digital-electronics-1
 
 ### Table of contents
 
@@ -94,3 +97,8 @@ Assigns output variables to the hardware  components of Nexys board
 [schematic.pdf](https://github.com/petrvaneek/de1/files/8602648/schematic.pdf)
 ## Video
 https://www.youtube.com/watch?v=LTTe8xP9w9E
+
+## References
+https://www.digikey.com/eewiki/pages/viewpage.action?pageId=4980758 - button debouncing
+https://digilent.com/reference/programmable-logic/nexys-a7/reference-manual?redirect=1 - board
+https://github.com/tomas-fryza/Digital-electronics-1/blob/master/docs/nexys-a7-sch.pdf - schematics
