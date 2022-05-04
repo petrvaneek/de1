@@ -2,10 +2,10 @@
 # Vivado v2021.2 (64-bit)
 # SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
 # IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
-# Start of session at: Sun May  1 14:14:46 2022
-# Process ID: 25972
+# Start of session at: Mon May  2 13:22:50 2022
+# Process ID: 26200
 # Current directory: C:/diel1/de1/Labs/07-display-driver/display_driver
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13732 C:\diel1\de1\Labs\07-display-driver\display_driver\display_driver.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16876 C:\diel1\de1\Labs\07-display-driver\display_driver\display_driver.xpr
 # Log file: C:/diel1/de1/Labs/07-display-driver/display_driver/vivado.log
 # Journal file: C:/diel1/de1/Labs/07-display-driver/display_driver\vivado.jou
 # Running On: LAPTOP-9IM6L6CH, OS: Windows, CPU Frequency: 2592 MHz, CPU Physical cores: 6, Host memory: 16954 MB
@@ -13,3 +13,45 @@
 start_gui
 open_project C:/diel1/de1/Labs/07-display-driver/display_driver/display_driver.xpr
 update_compile_order -fileset sources_1
+close_project
+create_project puvodni_projekt C:/Users/petrv/OneDrive/Plocha/puvodni_projekt -part xc7a50ticsg324-1L
+file mkdir C:/Users/petrv/OneDrive/Plocha/puvodni_projekt/puvodni_projekt.srcs/sources_1/new
+close [ open C:/Users/petrv/OneDrive/Plocha/puvodni_projekt/puvodni_projekt.srcs/sources_1/new/clk_divider.vhd w ]
+add_files C:/Users/petrv/OneDrive/Plocha/puvodni_projekt/puvodni_projekt.srcs/sources_1/new/clk_divider.vhd
+close [ open C:/Users/petrv/OneDrive/Plocha/puvodni_projekt/puvodni_projekt.srcs/sources_1/new/Alarm.vhd w ]
+add_files C:/Users/petrv/OneDrive/Plocha/puvodni_projekt/puvodni_projekt.srcs/sources_1/new/Alarm.vhd
+close [ open C:/Users/petrv/OneDrive/Plocha/puvodni_projekt/puvodni_projekt.srcs/sources_1/new/top.vhd w ]
+add_files C:/Users/petrv/OneDrive/Plocha/puvodni_projekt/puvodni_projekt.srcs/sources_1/new/top.vhd
+close [ open C:/Users/petrv/OneDrive/Plocha/puvodni_projekt/puvodni_projekt.srcs/sources_1/new/segment_driver.vhd w ]
+add_files C:/Users/petrv/OneDrive/Plocha/puvodni_projekt/puvodni_projekt.srcs/sources_1/new/segment_driver.vhd
+close [ open C:/Users/petrv/OneDrive/Plocha/puvodni_projekt/puvodni_projekt.srcs/sources_1/new/hex7seg.vhd w ]
+add_files C:/Users/petrv/OneDrive/Plocha/puvodni_projekt/puvodni_projekt.srcs/sources_1/new/hex7seg.vhd
+close [ open C:/Users/petrv/OneDrive/Plocha/puvodni_projekt/puvodni_projekt.srcs/sources_1/new/Btn_debouncer.vhd w ]
+add_files C:/Users/petrv/OneDrive/Plocha/puvodni_projekt/puvodni_projekt.srcs/sources_1/new/Btn_debouncer.vhd
+close [ open C:/Users/petrv/OneDrive/Plocha/puvodni_projekt/puvodni_projekt.srcs/sources_1/new/segment_clk_driver.vhd w ]
+add_files C:/Users/petrv/OneDrive/Plocha/puvodni_projekt/puvodni_projekt.srcs/sources_1/new/segment_clk_driver.vhd
+close [ open C:/Users/petrv/OneDrive/Plocha/puvodni_projekt/puvodni_projekt.srcs/sources_1/new/clock_setter.vhd w ]
+add_files C:/Users/petrv/OneDrive/Plocha/puvodni_projekt/puvodni_projekt.srcs/sources_1/new/clock_setter.vhd
+close [ open C:/Users/petrv/OneDrive/Plocha/puvodni_projekt/puvodni_projekt.srcs/sources_1/new/clock_run.vhd w ]
+add_files C:/Users/petrv/OneDrive/Plocha/puvodni_projekt/puvodni_projekt.srcs/sources_1/new/clock_run.vhd
+file mkdir C:/Users/petrv/OneDrive/Plocha/puvodni_projekt/puvodni_projekt.srcs/constrs_1/new
+close [ open C:/Users/petrv/OneDrive/Plocha/puvodni_projekt/puvodni_projekt.srcs/constrs_1/new/nexys.xdc w ]
+add_files -fileset constrs_1 C:/Users/petrv/OneDrive/Plocha/puvodni_projekt/puvodni_projekt.srcs/constrs_1/new/nexys.xdc
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open C:/Users/petrv/OneDrive/Plocha/puvodni_projekt/puvodni_projekt.srcs/sources_1/new/alarmsetter.vhd w ]
+add_files C:/Users/petrv/OneDrive/Plocha/puvodni_projekt/puvodni_projekt.srcs/sources_1/new/alarmsetter.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+open_run impl_1
+write_schematic -format pdf -orientation portrait -force C:/Users/petrv/OneDrive/Plocha/schematic.pdf
